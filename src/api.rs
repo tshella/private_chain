@@ -1,7 +1,9 @@
 use axum::{
     routing::{get, post},
     Router, Json, extract::State,
+    serve,
 };
+use tokio::net::TcpListener;
 use std::sync::{Arc, Mutex};
 use crate::blockchain::Blockchain;
 use crate::transaction::Transaction;
@@ -20,10 +22,10 @@ pub async fn start_api(state: Arc<Mutex<Blockchain>>) {
         .route("/add", post(add_transaction))
         .with_state(state);
 
-    axum::Server::bind(&"127.0.0.1:3000".parse().unwrap())
-        .serve(app.into_make_service())
-        .await
-        .unwrap();
+    let listener = TcpListener::bind("0.0.0.0:3000").await.unwrap();
+    println!("🚀 API server listening on {}", listener.local_addr().unwrap());
+
+    serve(listener, app).await.unwrap();
 }
 
 async fn get_chain(State(state): State<Arc<Mutex<Blockchain>>>) -> Json<Vec<crate::block::Block>> {
