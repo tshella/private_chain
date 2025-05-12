@@ -1,0 +1,11 @@
+/home/anthonyr/Desktop/private_chain/target/debug/deps/libtoml_write-65bd950134d06e90.rmeta: /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/lib.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/key.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/string.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/value.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/write.rs
+
+/home/anthonyr/Desktop/private_chain/target/debug/deps/libtoml_write-65bd950134d06e90.rlib: /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/lib.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/key.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/string.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/value.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/write.rs
+
+/home/anthonyr/Desktop/private_chain/target/debug/deps/toml_write-65bd950134d06e90.d: /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/lib.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/key.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/string.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/value.rs /home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/write.rs
+
+/home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/lib.rs:
+/home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/key.rs:
+/home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/string.rs:
+/home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/value.rs:
+/home/anthonyr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml_write-0.1.1/src/write.rs:
